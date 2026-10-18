@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1, "id": "autobuilder", "version": "${version}", "name": "Auto Builder",
+  "description": "Client-side schematic preview and builder.", "environment": "client",
+  "entrypoints": { "client": ["dev.autobuilder.BuilderMod"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.1", "java": ">=21", "fabric-api": "*" }
+}
